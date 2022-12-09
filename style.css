@@ -98,8 +98,8 @@ span {
 /* Elementos calculadora */
 
 #calc-container {
-    width: 230px;
-    height: 485px;
+    width: 240px;
+    height: 505px;
     font-family: 'Roboto', sans-serif;
     background-color: #201a18;
     border-radius: 15px;
@@ -109,10 +109,13 @@ span {
 }
 
 #result-container {
-    width: 215px;
+    width: 223px;
     height: 200px;
     background-color: #3e2f29;
-    border-radius: 6px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #division {
@@ -158,6 +161,10 @@ span {
 #ac:active, #igual:active {
     border-radius: 30%;
     background-color: rgba(255, 255, 255, 0.574);
+}
+
+table {
+    margin: 10px;
 }
 
 /* Elementos calculadora */
